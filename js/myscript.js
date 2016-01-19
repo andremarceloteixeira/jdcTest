@@ -25,63 +25,6 @@ function CartController($scope, $http){
 			$scope.products = response.data;
 		});
 	}
-	$scope.products = [
-  {
-    "nom": "Product 1",
-    "id": "1",
-    "prix": "1.00"
-  },
-  {
-    "nom": "Product 2",
-    "id": "2",
-    "prix": "2.00"
-  },
-  {
-    "nom": "Product 3",
-    "id": "3",
-    "prix": "3.00"
-  },
-  {
-    "nom": "Product 4",
-    "id": "4",
-    "prix": "4.00"
-  },
-  {
-    "nom": "Product 5",
-    "id": "5",
-    "prix": "5.00"
-  },
-  {
-    "nom": "Product 6",
-    "id": "6",
-    "prix": "6.00"
-  },
-  {
-    "nom": "Product 7",
-    "id": "7",
-    "prix": "7.00"
-  },
-  {
-    "nom": "Product 8",
-    "id": "8",
-    "prix": "8.00"
-  },
-  {
-    "nom": "Product 9",
-    "id": "9",
-    "prix": "9.00"
-  },
-  {
-    "nom": "Product 10",
-    "id": "10",
-    "prix": "10.00"
-  },
-  {
-    "nom": "Product 11",
-    "id": "11",
-    "prix": "11.00"
-  }
-];
 	//remove add to cart product
 	$scope.addToCart = function(product){
 		//if product exists in cart

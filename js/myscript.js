@@ -15,7 +15,7 @@ function CartController($scope, $http){
 	$scope.init = function() {
 		var req = {
 			method: 'GET',
-			url: 'http://localhost:8080/read-json',
+			url: 'http://server-marceloteixeira.rhcloud.com/read-json',
 			headers: {
 				'Content-Type': undefined
 			}
